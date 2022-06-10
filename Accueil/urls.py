@@ -6,4 +6,5 @@ app_name = 'accueil'
 
 urlpatterns = [
     path('', AccueilView.as_view(), name='accueil'),
+    path('photos/', PhotosView.as_view(), name='photos'),
 ]
